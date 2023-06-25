@@ -59,3 +59,19 @@ When viewing an animal’s details, I should be able to add the number of votes 
 
 The data used in our db.json is found in this file [Data](https://docs.google.com/document/d/1EUcHU9gkydR3IfJDTebW5iNHP2BCMRcv508R7BAXSvo/edit)
 
+# Project Setup
+
+To run the code challange, follow these steps:
+
+1. First you need to have the json server installed in your laptop globally by running sudo npm install json-server.
+
+2. Clone the repository: git@github.com:Noelle-Wavinya-Maingi/week-2-phase-1-code-challenge.git
+
+3. Navigate to your local directory: cd nameofthedirectory
+
+4. Run <img src="./image/Screenshot%20from%202023-06-25%2018-58-37.png" width="128"/>
+
+. Execute the program on a webpage: index.html
+
+
+
