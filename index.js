@@ -43,6 +43,7 @@ function renderDetails(animal) {
 
   const image = document.getElementById("image");
   image.src = animal.image;
+  image.alt = animal.name;
 
   const votes = document.getElementById("votes");
   votes.textContent = animal.votes;
