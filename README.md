@@ -63,7 +63,7 @@ The data used in our db.json is found in this file [Data](https://docs.google.co
 
 To run the code challange, follow these steps:
 
-1. First you need to have the json server installed in your laptop globally by running
+1. First you need to have the json server installed in your laptop globally by running(for linux users):
 
    ```sh
    sudo npm install json-server.
@@ -90,3 +90,11 @@ http://localhost:3000/characters
 ```
 
 5. Execute the program on a webpage: index.html.
+
+# Author
+
+The author of the code challenge solution is Noelle Maingi.
+
+# Licence 
+
+This code challenge is under the MIT licence. For more on the licence, open [LICENCE](LICENCE)
