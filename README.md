@@ -69,9 +69,9 @@ To run the code challange, follow these steps:
 
 3. Navigate to your local directory: cd nameofthedirectory
 
-4. Run <img src="./image/Screenshot%20from%202023-06-25%2018-58-37.png" width="100%"/>
+4. Run "json-server --watch db.json"
 
-. Execute the program on a webpage: index.html
+5. Execute the program on a webpage: index.html
 
 
 
