@@ -64,12 +64,29 @@ The data used in our db.json is found in this file [Data](https://docs.google.co
 To run the code challange, follow these steps:
 
 1. First you need to have the json server installed in your laptop globally by running
-   `sudo npm install json-server.`
 
-2. Clone the repository: `git@github.com:Noelle-Wavinya-Maingi/week-2-phase-1-code-challenge.git`
+   ```sh
+   sudo npm install json-server.
+   ```
+
+2. Clone the repository:
+
+```sh
+git@github.com:Noelle-Wavinya-Maingi/week-2-phase-1-code-challenge.git
+```
 
 3. Navigate to your local directory: cd nameofthedirectory
 
-4. Run `json-server --watch db.json`
+4. Run the following to start your server:
 
-5. Execute the program on a webpage: index.html
+```sh
+json-server --watch db.json
+```
+
+5. To test if the server is up and running paste this on a new tab:
+
+```sh
+http://localhost:3000/characters
+```
+
+5. Execute the program on a webpage: index.html.
