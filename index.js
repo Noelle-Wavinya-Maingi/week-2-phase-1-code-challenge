@@ -1,28 +1,28 @@
 //Executes when the DOM is fully loaded
 document.addEventListener("DOMContentLoaded", () => {
-  fetchCharacters();
+  fetchAnimals();
 });
 
 //Fetches the characters details from our local server
-async function fetchCharacters() {
+async function fetchAnimals() {
   return fetch("http://localhost:3000/characters")
     .then((result) => result.json())
     .then((characters) => {
       characters.forEach((animal) => {
-        renderCharacters(animal);
+        renderCharactersData(animal);
       });
     });
 }
 
 //fetches the details of a specific character by id from our local server
-async function details(id) {
-  return fetch("http://localhost:3000/characters" + `/${id}`).then((result) =>
+async function detailsOfCharactersById(id) {
+  return fetch("http://localhost:3000/characters" + `/${id}`).then(result =>
     result.json()
   );
 }
 
 //this renders the data of the characters
-function renderCharacters(animal) {
+function renderCharactersData(animal) {
   let characterList = document.getElementById("character-nav");
   let span = document.createElement("span");
   span.textContent = animal.name;
@@ -33,7 +33,7 @@ function renderCharacters(animal) {
 
 //it handles the click event on a character's name
 function CharacterClick(e) {
-  details(e.target.id).then(renderDetails);
+  detailsOfCharactersById(e.target.id).then(renderDetails);
 }
 
 //renders the image, name and votes of a character
