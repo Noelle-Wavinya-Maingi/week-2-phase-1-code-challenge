@@ -38,7 +38,6 @@ function CharacterClick(e) {
 
 //renders the image, name and votes of a character
 function renderDetails(animal) {
-  const animalDetails = document.getElementById("details-character");
   const name = document.getElementById("name");
   name.textContent = animal.name;
 
@@ -47,7 +46,6 @@ function renderDetails(animal) {
 
   const votes = document.getElementById("votes");
   votes.textContent = animal.votes;
-
 }
 
 //handles the submission of the form for the votes
