@@ -47,6 +47,7 @@ function renderDetails(animal) {
 
   const votes = document.getElementById("votes");
   votes.textContent = animal.votes;
+
 }
 
 //handles the submission of the form for the votes
